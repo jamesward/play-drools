@@ -34,5 +34,5 @@ Run on Heroku:
 5. Check the logs: `heroku logs`
 6. The logs should show a message was received and processed:
 
-       goodbye, world
-       hello, world
+        2015-12-10T19:47:34.597939+00:00 app[web.1]: goodbye, world
+        2015-12-10T19:47:34.594001+00:00 app[web.1]: hello, world
