@@ -20,6 +20,9 @@ Run Locally:
 1. Get this repo (e.g. `git clone https://github.com/jamesward/play-drools.git`)
 2. Run: `./activator ~run`
 3. Try it: [http://localhost:9000](http://localhost:9000)
+4. The console should show a message was received and processed:
+        goodbye, world
+        hello, world
 
 Run on Heroku:
 
@@ -28,3 +31,6 @@ Run on Heroku:
 3. Deploy: `git push heroku master`
 4. Try it: `heroku open`
 5. Check the logs: `heroku logs`
+6. The logs should show a message was received and processed:
+       goodbye, world
+       hello, world
