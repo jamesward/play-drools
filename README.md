@@ -21,6 +21,7 @@ Run Locally:
 2. Run: `./activator ~run`
 3. Try it: [http://localhost:9000](http://localhost:9000)
 4. The console should show a message was received and processed:
+
         goodbye, world
         hello, world
 
@@ -32,5 +33,6 @@ Run on Heroku:
 4. Try it: `heroku open`
 5. Check the logs: `heroku logs`
 6. The logs should show a message was received and processed:
+
        goodbye, world
        hello, world
